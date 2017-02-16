@@ -1,5 +1,6 @@
 doctype html
 html 
+    block vars 
     head
         title #{title}
         link(href='css/style.css', rel='stylesheet')
@@ -7,10 +8,11 @@ html
     body
        header
         nav 
-            a(href='') Home
-            a(href='') Burgers
-            a(href='') Sides
-            a(href='') Desserts
-            a(href='') Directions
-        
+            a(href='index') Home
+            a(href='burgers') Burgers
+            a(href='sides') Sides
+            a(href='desserts') Desserts
+            a(href='directions') Directions
+        section
+            block content
        footer Team No Sleep&copy; 2017
