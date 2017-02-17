@@ -1,4 +1,5 @@
-var burgers = [
+ function setMenu(){
+    var burgers = [
     { //object 1
         name: "Cheeseburger",
         description: "Juicy 1/2 lb patty topped with a slice of american cheese, lettuce, tomato, and our secret sauce",
@@ -21,3 +22,6 @@ var burgers = [
         description: "Juicy 1/2 lb patty, between two slices of toasted texas toast bread, and topped with a slice of american cheese, lettuce, tomato, onion rings, and our house BBQ sauce"
     }
 ];
+}
+
+exports.setMenu = setMenu;
