@@ -1,12 +1,8 @@
 extends layout
-
-block vars
-    - var title = 'Sides'
-
 block content
     each side in sides
-            div#menu()
-                ul
-                    li #{side.name}#{side.description}
-                    img(#{burger.image})
-
+        div#menu()
+            img#image(src=side.image)
+            ul
+                li #{side.name}#{side.description}
+               

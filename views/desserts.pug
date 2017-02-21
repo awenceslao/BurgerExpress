@@ -1,12 +1,8 @@
 extends layout
-
-block vars
-    - var title = 'Desserts'
-
 block content
     each dessert in desserts
-            div#menu()
-                ul
-                    li #{dessert.name}#{dessert.description}
-                    img(#{burger.image})
-
+        div#menu()
+            img#image(src=dessert.image)
+            ul
+                li #{dessert.name}#{dessert.description}
+               
