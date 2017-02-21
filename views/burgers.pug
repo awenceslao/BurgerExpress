@@ -4,5 +4,7 @@ block vars
     - var title = 'Burgers'
 
 block content
+    -var jsonObj = !{JSON.parse(menu.json)}
     ul
-        each val, index in {menu}
+        each burgers in jsonObj
+            li= burgers

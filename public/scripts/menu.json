@@ -20,5 +20,52 @@
         "name": "Southwest Burger",
         "description": "Juicy 1/2 lb patty, between two slices of toasted texas toast bread, and topped with a slice of american cheese, lettuce, tomato, onion rings, and our house BBQ sauce"
         }
+    ],
+
+    "sides": [
+        {
+        "name": "Tater Tots",
+        "description": "In-house tater tots, made fresh daily"
+        },
+        {
+        "name": "French Fries",
+        "description": "Fresh cut fries, cooked to perfection in piping hot peanut oil"
+        },
+        {
+        "name": "Onion Rings",
+        "description": "Hand battered onion rings, made to order"
+        },
+        {
+        "name": "Chili Cheese Tots",
+        "description": "Tater tots smothered in our specialty chili and cheese"
+        },
+        {
+        "name": "Chili Cheese Fries",
+        "description": "French Fries smothered in our specialty chili and cheese"
+        }
+    ],
+
+    "desserts": [
+        {
+        "name": "CHocolate Chocolate Chip Shake",
+        "description": "Chocolate milkshake mixed with chocolate chips topped with whipped cream and a cherry"
+        },
+        {
+        "name": "Vanilla Shake",
+        "description": "Creamy vanilla milkshake topped with whipped cream and a cherry"
+        },
+        {
+        "name": "Cookie Dough Shake",
+        "description": "Caramel milkshake mixed with cookie dough bites"
+        },
+        {
+        "name": "M&M Shake",
+        "description": "Vanilla milkshake mixed with mini M&Ms"
+        },
+        {
+        "name": "Ice Cream Cone",
+        "description": "Soft serve ice cream served in a waffle cone"
+        }
     ]
+
 }

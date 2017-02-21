@@ -1,7 +1,7 @@
 var express = require('express'),
 pug = require('pug'),
 path = require('path'),
-json = require('./');
+menu = require('./public/scripts/menu.json');
 
 var app = express();
 
