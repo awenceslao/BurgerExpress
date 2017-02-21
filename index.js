@@ -17,4 +17,5 @@ app.get('/:viewname', function(req, res){
     res.render(req.params.viewname, menu);
 });
 
+
 app.listen(3000);
