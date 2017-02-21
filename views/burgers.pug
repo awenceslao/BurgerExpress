@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 extends layout
 
 block vars
@@ -7,3 +8,15 @@ block content
     ul
         each thing in mme
             li= thing.name
+=======
+doctype html
+html
+    head
+        title= 'Burgers'
+    body
+        each burger in burgers
+            div#menu()
+                ul
+                    li #{burger.name}#{burger.description}
+                    img(#{burger.image})
+>>>>>>> 8558cf16bdaca66cd1e0f28577a827d0a2f9ce15

@@ -1,7 +1,7 @@
 var express = require('express'),
 pug = require('pug'),
 path = require('path'),
-menu = require('./public/scripts/menu.json');
+menu = require('./menu.json');
 
 var app = express();
 
@@ -13,8 +13,11 @@ app.get('/', function(req, res){
     res.render('index');
 } );
 
-app.get('/:viewname', function(req, res){
-    res.render(req.params.viewname);
+// app.get('/:viewname', function(req, res){
+//     res.render(req.params.viewname);
+// });
+app.get('/burgers', function(req,res) {
+    res.render('burgers', menu);
 });
 
 app.listen(3000);
