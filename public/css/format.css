@@ -2,7 +2,7 @@ html {
    
     background:whitesmoke;
     color: #ff4411;
-    font-family: 'Pangolin', sans-serif;
+   font-family: 'Pangolin', cursive;
 }
 
 body {
@@ -21,7 +21,7 @@ header {
     text-align: center;
     padding: 5px;
     color: #ff4411;
-     font-family: 'Pacifico', sans-serif;
+    font-family: 'Pacifico', cursive;
     
 }
 
@@ -29,7 +29,7 @@ header {
         align-self: center;
         text-align: center;
         color: #ff4411;
-        font-family: 'Pacifico', sans-serif;
+       font-family: 'Pacifico', cursive;
     }
 
 
