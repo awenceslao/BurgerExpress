@@ -1,10 +1,10 @@
-extends layout
-
-block vars
-    - var title = 'Burgers'
-
-block content
-    -var jsonObj = !{JSON.parse(menu.json)}
-    ul
-        each burgers in jsonObj
-            li= burgers
+doctype html
+html
+    head
+        title= 'Burgers'
+    body
+        each burger in burgers
+            div#menu()
+                ul
+                    li #{burger.name}#{burger.description}
+                    img(#{burger.image})
