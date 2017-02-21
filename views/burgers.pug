@@ -1,10 +1,8 @@
-doctype html
-html
-    head
-        title= 'Burgers'
-    body
-        each burger in burgers
-            div#menu()
-                ul
-                    li #{burger.name}#{burger.description}
-                    img(#{burger.image})
+extends layout
+block content
+    each burger in burgers
+        div#menu()
+            img#image(src=burger.image)
+            ul
+                li #{burger.name}#{burger.description}
+               
