@@ -1,0 +1,29 @@
+html {
+    background-color: #D40015;
+}
+
+body {
+    background-color: #FAFAC6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-right: 1px #D40015;
+}
+
+li a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav :hover {
+    color: #D40015;
+}

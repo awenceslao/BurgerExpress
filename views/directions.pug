@@ -1,0 +1,7 @@
+extends layout 
+block content
+    h3 My Google Maps Demo
+    div(id="map")
+    link(href='./css/style.css', rel='stylesheet')
+    script(src='./scripts/directions.js')
+    script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiJkrILSg13x1gAD6ICEq90ZJHodSsMCA&callback=initMap")
