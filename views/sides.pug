@@ -4,6 +4,9 @@ block vars
     - var title = 'Sides'
 
 block content
-    ul
-        each val in [1, 2, 3, 4, 5] 
-            li= val
+    each side in sides
+            div#menu()
+                ul
+                    li #{side.name}#{side.description}
+                    img(#{burger.image})
+

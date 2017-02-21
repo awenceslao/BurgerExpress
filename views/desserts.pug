@@ -4,6 +4,9 @@ block vars
     - var title = 'Desserts'
 
 block content
-    ul
-        each val in [1, 2, 3, 4, 5] 
-            li= val
+    each dessert in desserts
+            div#menu()
+                ul
+                    li #{dessert.name}#{dessert.description}
+                    img(#{burger.image})
+
