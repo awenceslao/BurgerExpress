@@ -13,11 +13,9 @@ app.get('/', function(req, res){
     res.render('index');
 } );
 
-// app.get('/:viewname', function(req, res){
-//     res.render(req.params.viewname);
-// });
-app.get('/burgers', function(req,res) {
-    res.render('burgers', menu);
-});
+ app.get('/:viewname', function(req, res){
+     res.render(req.params.viewname, menu);
+ });
+
 
 app.listen(3000);

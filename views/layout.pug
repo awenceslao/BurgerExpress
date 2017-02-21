@@ -1,25 +1,25 @@
 doctype html
 html 
     block vars 
-    head
-        nav 
-            ul
-                li
-                    a(href='index') Home
-                li
-                    a(href='burgers') Burgers
-                li
-                    a(href='sides') Sides
-                li
-                    a(href='desserts') Desserts
-                li
-                    a(href='directions') Directions
-        title #{title}
-        link(href='./css/format.css', rel='stylesheet')
+    head 
+        header
+            nav 
+                ul
+                    li
+                        a(href='index') Home
+                    li
+                        a(href='burgers') Burgers
+                    li
+                        a(href='sides') Sides
+                    li
+                        a(href='desserts') Desserts
+                    li
+                        a(href='directions') Directions
+            title #{title}
+            link(href='./css/format.css', rel='stylesheet')
         block vars
-    body
-       header
+    body   
        
         section
             block content
-       footer Team No Sleep&copy; 2017
+    footer Team No Sleep&copy; 2017
