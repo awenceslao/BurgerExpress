@@ -16,6 +16,7 @@ body {
 
 #image {
    transition: width 2s linear 1s;
+   margin-top: 30px;
 }
 #image:hover {
     width : 18%;
