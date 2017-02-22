@@ -17,12 +17,15 @@ body {
 #image {
    transition: width 2s linear 1s;
    margin-top: 30px;
+   border-style: solid;
+   border-color: #000;
 }
 #image:hover {
     width : 18%;
     height: 18%;
     border-style: solid; 
     border-color: #D40015;
+    border-width: 6px;
 }
 
 header {
