@@ -14,6 +14,16 @@ body {
     text-align: center;
 }
 
+#image {
+   transition: width 2s linear 1s;
+}
+#image:hover {
+    width : 18%;
+    height: 18%;
+    border-style: solid; 
+    border-color: #D40015;
+}
+
 header {
     background:#bac0ac ;
     color: #fff;
